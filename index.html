@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#08080c">
+<title>F1 2026 Daily Hub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="noise"></div><div class="orb orb-a"></div><div class="orb orb-b"></div><div class="orb orb-c"></div>
+<main class="shell">
+<header class="top glass">
+  <a class="brand" href="#"><span class="f1">F1</span><span><b>2026 Daily Hub</b><small>Championship intelligence</small></span></a>
+  <div class="live"><i></i> LIVE DATA</div>
+</header>
+
+<section class="hero glass">
+  <div>
+    <small class="kicker">2026 FIA FORMULA ONE WORLD CHAMPIONSHIP</small>
+    <h1>Championship<br><em>Leader</em></h1>
+    <div class="leader"><strong id="leaderPos">01</strong><div><h2 id="leaderName">Loading…</h2><p id="leaderTeam">Loading…</p></div></div>
+  </div>
+  <div class="heroStats">
+    <div><small>POINTS</small><b id="leaderPoints">—</b></div>
+    <div><small>UPDATED</small><b id="updated">—</b></div>
+  </div>
+</section>
+
+<div class="grid">
+<section class="glass standings">
+  <div class="sectionHead"><div><small class="kicker">CHAMPIONSHIP</small><h2>Driver Standings</h2></div><span>2026</span></div>
+  <div id="standings" class="rows"></div>
+</section>
+<section class="news">
+  <div class="sectionHead"><div><small class="kicker">PADDOCK FEED</small><h2>Daily Updates</h2></div><span>TOP 5</span></div>
+  <div id="news" class="newsGrid"></div>
+</section>
+</div>
+<footer><span>F1 2026 Daily Hub</span><span>Data source: Formula1.com + configured news provider</span></footer>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

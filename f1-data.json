@@ -1,0 +1,63 @@
+{
+  "season": 2026,
+  "updated_at": "2026-10-07T00:00:00Z",
+  "standings": [
+    {
+      "position": 1,
+      "driver": "Kimi Antonelli",
+      "nationality": "Italian",
+      "team": "Mercedes",
+      "points": 320
+    },
+    {
+      "position": 2,
+      "driver": "George Russell",
+      "nationality": "British",
+      "team": "Mercedes",
+      "points": 236
+    },
+    {
+      "position": 3,
+      "driver": "Lewis Hamilton",
+      "nationality": "British",
+      "team": "Ferrari",
+      "points": 214
+    },
+    {
+      "position": 4,
+      "driver": "Charles Leclerc",
+      "nationality": "Monegasque",
+      "team": "Ferrari",
+      "points": 191
+    },
+    {
+      "position": 5,
+      "driver": "Lando Norris",
+      "nationality": "British",
+      "team": "McLaren",
+      "points": 188
+    },
+    {
+      "position": 6,
+      "driver": "Max Verstappen",
+      "nationality": "Dutch",
+      "team": "Red Bull Racing",
+      "points": 188
+    },
+    {
+      "position": 7,
+      "driver": "Oscar Piastri",
+      "nationality": "Australian",
+      "team": "McLaren",
+      "points": 128
+    },
+    {
+      "position": 8,
+      "driver": "Isack Hadjar",
+      "nationality": "French",
+      "team": "Red Bull Racing",
+      "points": 96
+    }
+  ],
+  "news": []
+}
